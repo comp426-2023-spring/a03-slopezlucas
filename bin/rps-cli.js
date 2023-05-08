@@ -22,7 +22,7 @@ switch(alength) {
         process.exit(0);
     case alength == 1:
         var player = args._[0].toString().toLowerCase();
-        if(player=="rock" || player=="paper" || player=="scissors"){
+        if(player == "rock" || player == "paper" || player == "scissors"){
             console.log(JSON.stringify(rps(player)));
             process.exit(0);
         } 
