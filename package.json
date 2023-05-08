@@ -20,6 +20,7 @@
     "node-rps": "./bin/rps-cli.js",
     "node-rpsls": "./bin/rpsls-cli.js"
   },
+  "type": "module",
   "dependencies": {
     "minimalist": "^1.0.0"
   }
