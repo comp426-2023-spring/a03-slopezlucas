@@ -1,4 +1,4 @@
-#!/usr/bin/env node#!/usr/bin/env node
+#!/usr/bin/env node
 
 import {rpsls, hLS, rulesLS} from "../lib/rpsls.js"
 import minimist from "minimist";
