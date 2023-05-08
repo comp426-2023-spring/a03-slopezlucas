@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import {rps, h, rules} from "../lib/rpsls.js"
-import minimist from "minimist";
+import minimist from "minimist"
 
 const args = minimist(process.argv.slice(2));
 
