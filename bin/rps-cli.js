@@ -33,7 +33,7 @@ switch(alength) {
             process.exit(0);
         }
     default:
-        console.log("Out of range");
+        console.log("$alength is out of range");
         h();
         rules();
         process.exit(0);
